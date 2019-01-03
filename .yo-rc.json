@@ -1,0 +1,9 @@
+{
+  "generator-nodecg": {
+    "promptValues": {
+      "authorName": "Ryan Markel",
+      "authorEmail": "github@26mag.com",
+      "authorUrl": "https://ryanmarkel.com/"
+    }
+  }
+}

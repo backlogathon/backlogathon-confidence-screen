@@ -1,0 +1,44 @@
+{
+  "name": "backlogathon-confidence-screen",
+  "version": "0.0.0",
+  "description": "Gives a text entry panel in NodeCG that is piped to a simple confidence screen graphic.",
+  "homepage": "https://ryanmarkel.com/",
+  "author": {
+    "name": "Ryan Markel",
+    "email": "github@26mag.com",
+    "url": "https://ryanmarkel.com/"
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "nodecg",
+    "confidence screen",
+    "streaming",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "^1.1.1",
+    "dashboardPanels": [
+      {
+        "name": "confidence-screen",
+        "title": "Confidence Screen",
+        "width": 3,
+        "file": "confidence-screen.html",
+        "headerColor": "#525F78"
+      }
+    ],
+    "graphics": [
+      {
+        "file": "confidence-screen.html",
+        "width": 1920,
+        "height": 1080
+      }
+    ]
+  },
+  "repository": "https://github.com/nodecg/nodecg.git",
+  "license": "GPL-3.0"
+}
