@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+	<meta charset="UTF-8">
+	<script src="./textFit.js"></script>
 	<style>
 		body {
-			font-family: sans-serif;
+			font-family: monospace;
 		}
 
 		.monospace {
 			font-family: monospace;
 		}
+
+		div#confidence {
+			height: 1080px;
+			width: 1920px;
+		}
 	</style>
 </head>
 <body>
-	<pre id="confidence"></pre>
+	<div id="confidence"></div>
 </body>
-
 <script>
-		const confidenceReplicant = nodecg.Replicant('confidence');
+	const confidenceReplicant = nodecg.Replicant('confidence');
 
-		confidenceReplicant.on('change', (newValue, oldValue) => {
-            confidence.innerText = newValue;
-    });
+	confidenceReplicant.on('change', (newValue, oldValue) => {
+        confidence.innerText = newValue;
+	});
+
+	textFit(document.getElementById('confidence'));
 </script>
 </html>
