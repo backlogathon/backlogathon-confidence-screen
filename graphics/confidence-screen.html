@@ -6,15 +6,12 @@
 	<style>
 		body {
 			font-family: monospace;
+			background-color: #ffffff;
 		}
-
-		.monospace {
-			font-family: monospace;
-		}
-
 		div#confidence {
-			height: 1080px;
-			width: 1920px;
+			height: 1040px;
+			width: 1880px;
+			margin: 20px;
 		}
 	</style>
 </head>
@@ -25,9 +22,9 @@
 	const confidenceReplicant = nodecg.Replicant('confidence');
 
 	confidenceReplicant.on('change', (newValue, oldValue) => {
-        confidence.innerText = newValue;
+		confidence.innerText = newValue;
+		textFit(document.getElementById('confidence'), {maxFontSize: 150}, {multiLine: true});
 	});
 
-	textFit(document.getElementById('confidence'));
 </script>
 </html>
