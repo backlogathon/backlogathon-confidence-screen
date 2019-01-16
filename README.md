@@ -4,7 +4,7 @@ backlogathon-confidence-screen is a [NodeCG](http://github.com/nodecg/nodecg) bu
 
 ## What It Does
 
-![animation of bundle in action](https://markel.files.wordpress.com/2019/01/demonstration.gif)
+![animation of bundle in action](https://ryanmarkel.com/wp-content/uploads/2019/01/demonstration-fast.gif)
 
 **backlogathon-confidence-screen** is a very simple NodeCG bundle that gives you a multi-line text entry area in a NodeCG dashboard tied to a browser view of the text you submit. The text is displayed using monospaced fonts, with black text on a white background.
 
