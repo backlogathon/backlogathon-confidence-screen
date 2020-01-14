@@ -21,7 +21,7 @@
     "nodecg-bundle"
   ],
   "nodecg": {
-    "compatibleRange": "^1.5",
+    "compatibleRange": "^1.3.0",
     "dashboardPanels": [
       {
         "name": "confidence-screen",
