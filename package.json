@@ -1,6 +1,6 @@
 {
   "name": "backlogathon-confidence-screen",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "Gives a text entry panel in NodeCG that is piped to a simple confidence screen graphic.",
   "homepage": "https://ryanmarkel.com/",
   "author": {
